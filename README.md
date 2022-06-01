@@ -9,7 +9,9 @@ Here's a simple-terminal I manually built with some patches added:
 - [st-scrollback-mouse-altscreen-20220127-2c5edf2.diff](https://st.suckless.org/patches/scrollback/)
 - [st-undercurl-0.8.4-20210822.diff](https://st.suckless.org/patches/undercurl/)
 
-The terminal's current support for monospaced fonts isn't great, but it's fast. I think I can live with this shortcoming ..
+Default font family is [Go-Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Go-Mono.zip)
+
+simple-terminal does not support some monospaced fonts very well, so it is normal when encountering font problems (cjk).
 
 Also I modified the default keys for adjusting fonts:
 
