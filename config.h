@@ -5,7 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "GoMono Nerd Font:style=Book:pixelsize=20:antialias=true:autohint=true";
+
+// static char *font = "GoMono Nerd Font:style=Book:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Rec Mono Linear:style=Regular:pixelsize=20:antialias=true:autohint=true";
+
+/* Spare fonts */
+static char *font2[] = { 
+	"GoMono Nerd Font:style=Book:pixelsize=20:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
