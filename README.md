@@ -8,6 +8,9 @@ Here's a simple-terminal I manually built with some patches added:
 - [st-scrollback-20210507-4536f46.diff](https://st.suckless.org/patches/scrollback/)
 - [st-scrollback-mouse-altscreen-20220127-2c5edf2.diff](https://st.suckless.org/patches/scrollback/)
 - [st-undercurl-0.8.4-20210822.diff](https://st.suckless.org/patches/undercurl/)
+- [st-font2-20190416-ba72400.diff](https://st.suckless.org/patches/font2/)
+- [st-charoffsets-20220311-0.8.5.dif](https://st.suckless.org/patches/charoffsets/)
+- [st-nobadweight-20220308-4b53196.diff](https://st.suckless.org/patches/nobadweight/)
 
 simple-terminal does not support some monospaced fonts very well, so it is normal when encountering font problems (cjk).
 
@@ -27,6 +30,6 @@ Also I modified the default keys for adjusting fonts:
 Please download some dependent fonts:
 
 ```
-yay -S ttf-recursive 
+yay -S ttf-recursive
 yay -S archlinuxcn/nerd-fonts-go
 ```
