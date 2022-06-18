@@ -6,12 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-// static char *font = "GoMono Nerd Font:style=Book:pixelsize=20:antialias=true:autohint=true";
-static char *font = "Rec Mono Linear:style=Regular:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Rec Mono Linear:style=Regular:pixelsize=18:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = { 
-	"GoMono Nerd Font:style=Book:pixelsize=20:antialias=true:autohint=true"
+	"GoMono Nerd Font:style=Book:pixelsize=18:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -34,8 +33,12 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.0;
+static float cwscale = 0.9;
 static float chscale = 1.0;
+
+/* Character rendering offsets in pixels */
+static short cxoffset = 0;
+static short cyoffset = 0;
 
 /*
  * word delimiter string
