@@ -24,7 +24,7 @@ Also I modified the default keys for adjusting fonts:
 <c-a-d>: scroll down one screen
 ```
 
-请下载一些依赖的字体：
+Please download some dependent fonts:
 
 ```
 yay -S ttf-recursive 
