@@ -9,7 +9,7 @@
 static char *font = "Rec Mono Linear:style=Regular:pixelsize=18:antialias=true:autohint=true";
 
 /* Spare fonts */
-static char *font2[] = { 
+static char *font2[] = {
 	"GoMono Nerd Font:style=Book:pixelsize=18:antialias=true:autohint=true"
 };
 
@@ -142,8 +142,8 @@ static const char *colorname[] = {
 	"#D9E0EE",
 
 	[256] = "#D9E0EE", /* default foreground colour */
-	[257] = "#1E1E2E", /* default background colour */
-	[258] = "#C3BAC6", /*575268*/
+	[257] = "#1E1E2F", /* default background colour */
+	[258] = "#F5E0DC", /* cursor */
 };
 
 
