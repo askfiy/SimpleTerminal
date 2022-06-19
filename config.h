@@ -522,5 +522,6 @@ static char ascii_printable[] =
 #define UNDERCURL_CURLY 0
 #define UNDERCURL_SPIKY 1
 #define UNDERCURL_CAPPED 2
-// Active style
-#define UNDERCURL_STYLE UNDERCURL_SPIKY
+
+// Active style (Disable here use default curl style)
+// #define UNDERCURL_STYLE 
