@@ -19,10 +19,10 @@ Also I modified the default keys for adjusting fonts:
 <c-->: font size reduction
 <c-=>: increase font size
 
-<a-u>: scroll up one line
-<a-d>: scroll down one line
-<c-a-u>: scroll up one screen
-<c-a-d>: scroll down one screen
+<a-u>: scroll up 5 line
+<a-d>: scroll down 5 line
+<a-b>: scroll up one screen
+<a-f>: scroll down one screen
 ```
 
 Please download some dependent fonts:
