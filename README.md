@@ -21,8 +21,8 @@ Also I modified the default keys for adjusting fonts:
 
 <a-u>: scroll up 5 line
 <a-d>: scroll down 5 line
-<a-b>: scroll up one screen
-<a-f>: scroll down one screen
+<c-a-u>: scroll up one screen
+<tc-a-d>: scroll down one screen
 ```
 
 Please download some dependent fonts:
